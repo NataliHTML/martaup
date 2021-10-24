@@ -29,15 +29,16 @@ blockquote,
 dl,
 dd {
 	margin: 0;
+	padding: 0;
 }
 ul[class] {
 	list-style: none;
 }
 
-img {
-	max-width: 100%;
-	display: block;
-}
+// img {
+// 	max-width: 100%;
+// 	display: block;
+// }
 
 input,
 button,
@@ -47,4 +48,5 @@ select {
 }
 a {
 	text-decoration: none;
+	color: inherit;
 }
